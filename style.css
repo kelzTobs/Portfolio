@@ -1,0 +1,404 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* this is for home section */
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: black;
+}
+
+nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav h1 {
+    font-size: 30px;
+    color: whitesmoke;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: cyan;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+.detel {
+    margin-left: 8%;
+    margin-top: 13%;
+}
+
+.detel h1 {
+    font-size: 50px;
+    color: rgb(57, 46, 138);
+    margin-bottom: 20px;
+}
+
+.detel p {
+    color: #555;
+    line-height: 22px;
+}
+
+.detel a {
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: goldenrod;
+    display: inline-block;
+    margin: 30px o;
+    border-radius: 5px;
+}
+
+.images {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 3s left 2s;
+}
+
+.images:hover .shape {
+    bottom: 40px;
+}
+
+.images:hover .self {
+    left: 45%;
+}
+
+/* this is for the about section */
+ 
+#parent {
+    /* display: flex;
+    justify-content: center; */
+    background-color: #212121;
+    width: 100%;
+}
+
+#parent img {
+    width: 25%;
+    margin: 20px auto;
+}
+
+.text {
+    width: 80%;
+    margin: auto;
+}
+
+.text p {
+    color: rgb(196, 64, 64);
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+    background: linear-gradient(rgb(142, 190, 206),rgb(214, 145, 156));
+}
+
+#about h1 {
+    font-size: 45px;
+    text-align: center;
+}
+
+.wrap {
+    margin-top: 10px;
+    width: 80vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container {
+    width: 28vmin;   
+    background-color: aquamarine;
+    position: relative;
+    font-size: 16px;
+    border-top: 10px solid black;
+    border-bottom: 10px solid red;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.container i {
+    color: rgb(185, 185, 9);
+    font-size: 40px;
+    text-align: center;
+}
+
+span.num {
+    color: rgb(56, 70, 70);
+    display: grid;
+    font-size: 30px;
+    place-items: center;
+    font-weight: 800;
+}
+
+span.text {
+    color: rgb(52, 93, 129);
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 0;
+    padding: 5% 0;
+}
+
+/* this is for the service section */
+#services {
+    margin-top: 30px;
+    background-color: grey;
+}
+
+.slider-section{
+    width: 70%;
+    margin: 50px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.rev {
+    background-color: aqua;
+    padding: 20px;
+    border-radius:8px;
+    box-shadow: 0 0 10px #332;
+    text-align: center;
+}
+
+.rev img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.rev i {
+    font-size: 50px;
+}
+
+.rev p {
+    font-size: 20px;
+}
+
+.controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.control {
+    font-size: 30px;
+    columns: black;
+    cursor: pointer;
+}
+
+#services h1 {
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 50px;
+}
+
+/* this is the hire me section */
+.formFilling {
+    border: 1px solid grey;
+    width: 50%;
+    margin: 0 auto;
+    background-image: url("image/bg1.jpg");
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form {
+    font-size: 25px;
+    color: rgb(225, 210, 0);
+    text-align: center;
+    font-weight: bold;
+    margin: 15px 10px;
+}
+.form input {
+    width: 20%;
+    height: 30px;
+}
+
+#hire-me h1{
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+
+/* this is a footer section */
+footer {
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(154, 154, 168);
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+hr {
+    width: 90%;
+    margin: auto;
+    color: red;
+}
+footer i{
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+footer i:hover {
+    color: red;
+}
+
+@media screen and (max-width: 600px) {    
+    nav {
+        display: flex;
+        width: 84%;
+        margin: auto;
+        padding: 20px 0;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    nav h1 {
+        font-size: 30px;
+        color: whitesmoke;
+        
+    }
+    
+    nav ul li {
+        display: inline-block;
+        list-style: none;
+        margin: 10px 20px;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: cyan;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    
+    nav ul li a:hover {
+        color: red;
+    }
+    
+    .detel {
+        margin-left: 8%;
+        margin-top: 13%;
+        width: 55%;
+    }
+    
+    .detel h1 {
+        font-size: 30px;
+        color: rgb(57, 46, 138);
+        margin-bottom: 5px;
+    }
+    .detel a {
+        background: #212121;
+        padding: 10px 18px;
+        text-decoration: none;
+        font-weight: bold;
+        color: goldenrod;
+        display: inline-block;
+        margin: 30px o;
+        border-radius: 5px;
+    }
+    
+    .images {
+        width: 45%;
+        height: 80%;
+        position: absolute;
+        bottom: 160px;
+        right: 0px;
+    }
+    
+    .images img {
+        height: 50%;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom 3s left 2s;
+    }
+    
+    /* this is for the about section */    
+    .text p {
+        color: rgb(196, 64, 64);
+        text-align: center;
+        font-size: 15px;
+        margin-top: 10px;
+        background: linear-gradient(rgb(142, 190, 206),rgb(214, 145, 156));
+    }
+    
+    .wrap {
+        margin-top: 10px;
+        margin-left: 50px;
+        width: 80vw;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    /* this is the hire me section */
+.form {
+    font-size: 25px;
+    color: rgb(225, 210, 0);
+    text-align: center;
+    font-weight: bold;
+    margin: 15px 10px;
+}
+.form input {
+    width: 50%;
+    height: 20px;
+}
+
+.form label {
+    font-size: 15px;
+}
+
+#hire-me h1{
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+}
+    
+}
